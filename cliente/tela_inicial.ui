@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cadastro</class>
+ <widget class="QWidget" name="Cadastro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 70, 112);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>341</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0,0.2);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="cadastrar_telainicial__Button">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius:10px
+
+}
+
+QPushButton:hover{
+
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar Tarefa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cadastrar_usuario_telainicial_Button_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius:10px
+
+}
+
+QPushButton:hover{
+
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar Usuario</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buscar_tarefa_telainicial_Button">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius:10px
+
+}
+
+QPushButton:hover{
+
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Buscar Tarefa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buscar_tarefa_telainicial_Button_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>190</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius:10px
+
+}
+
+QPushButton:hover{
+
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Encerrar Programa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sair_telainicial_Button_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>240</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius:10px
+
+}
+
+QPushButton:hover{
+
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>25</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#ffffff;&quot;&gt;TELA INICIAL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
