@@ -23,10 +23,13 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 )
 ENGINE = InnoDB;
 
+SELECT * FROM usuario;
+DELETE FROM usuario WHERE id_usuario = 22;
+
 -- Create table tarefa
 CREATE TABLE IF NOT EXISTS `tarefa` (
   `id_tarefa` INT NOT NULL,
-  `descricao` VARCHAR(45) NOT NULL,
+  `descricao` VARCHAR(500) NOT NULL,
   `prazo` DATE NOT NULL,
   `email` VARCHAR(45) NOT NULL,
   `id_usuario` INT NOT NULL,
@@ -39,6 +42,9 @@ CREATE TABLE IF NOT EXISTS `tarefa` (
     ON UPDATE NO ACTION
 )
 ENGINE = InnoDB;
+
+SELECT * FROM tarefa;
+DELETE FROM tarefa WHERE id_tarefa = 29;
 
 -- Create table login
 CREATE TABLE IF NOT EXISTS `login` (
@@ -55,7 +61,8 @@ CREATE TABLE IF NOT EXISTS `login` (
 )
 ENGINE = InnoDB;
 
-
+SELECT * FROM login;
+DELETE FROM login WHERE id_login = 22;
 -- Listar todas as tarefas vinculadas a um usuário pelo ID
 -- SELECT tarefa.*
 -- FROM tarefa
